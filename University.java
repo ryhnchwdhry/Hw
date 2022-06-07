@@ -1,13 +1,12 @@
-package hw9Abstraction.copy;
+package hw10Abstraction;
 
-public interface University extends College {
+public interface University extends College, Hospital  {
+	
 	/*
-	 * There are two main keywords, “extends” and “implements” which are used in
-	 * Java for inheritance. Yes interface inherit other Interfaces, , Yes a regular
-	 * class or abstract class by extends key word? One inheritance is possible
-	 * between class and abstract class, but interface extends one or more.
+	 * One keywords are used for the inheritance in Interface which is extends.
+	 * Yes interface inherit other Interfaces, Yes a regular class or abstract class by extends or implements keyword.
+	 *  Interface one and more, regular class and abstract class only can extends one, inheritance is possible.
 	 */
-
 	public void classSize();
 
 	public void playGround();

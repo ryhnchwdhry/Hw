@@ -1,11 +1,10 @@
-package hw9Abstraction.copy;
+package hw10Abstraction;
 
-public class ColumbiaUniversity extends MedicalSchool {
+public class ColumbiaUniversity {
 	/*
-	 * One keywords are used for the inheritance in Java for a regular Class which
-	 * is extends. Yes a regular Class inherit other Abstract Class, a regular class
-	 * can not be extends with interface by extends key word. One inheritances is
-	 * possible by a regular Class?
+	 * One for regular class to abstract class and another one for interface  keywords are used for the inheritance in Java for a regular Class.
+	 *  Yes a regular Class inherit other Abstract Class, also a regular class extends interface  implements keyword.
+	 *  One inheritances is possible by a regular Class to regular class, but interface one and more. 
 	 */
 	public void chemistry() {
 		System.out.println("This is non abstract class");
@@ -13,17 +12,5 @@ public class ColumbiaUniversity extends MedicalSchool {
 
 //	public abstract void biology (); A class that is declared using “abstract” keyword is known as abstract class
 	public ColumbiaUniversity() {
-	}
-
-	@Override
-	public void anatomyLab() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void hygiene() {
-		// TODO Auto-generated method stub
-		
 	}
 }

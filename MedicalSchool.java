@@ -1,11 +1,10 @@
-package hw9Abstraction.copy;
+package hw10Abstraction;
 
-public abstract class MedicalSchool extends NursingSchool {
-
+public abstract class MedicalSchool {
 	/*
-	 * One keyword which is extends. Yes Abstract Class inherit other Abstract Class
-	 * or a regular class by extends keyword. Only one inheritances is possible by
-	 * an Abstract Class?
+	 *  Two keyword used inheritance are in abstract class which is extends and implements, extend for regular class and implements for interface.
+	 *   Abstract Class inherit other Abstract Class, a regular class extends interface by implements keyword.
+	 *   Only one for regular class and interface one and more inheritances is possible by an Abstract Class.
 	 */
 
 	public abstract void anatomyLab();

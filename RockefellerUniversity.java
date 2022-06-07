@@ -1,4 +1,4 @@
-package hw9Abstraction.copy;
+package hw10Abstraction;
 
 public class RockefellerUniversity {
 	public void maths() {
