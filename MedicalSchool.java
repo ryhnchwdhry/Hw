@@ -1,6 +1,6 @@
-package hw10Abstraction;
+package hw11Abstraction;
 
-public abstract class MedicalSchool {
+public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	/*
 	 *  Two keyword used inheritance are in abstract class which is extends and implements, extend for regular class and implements for interface.
 	 *   Abstract Class inherit other Abstract Class, a regular class extends interface by implements keyword.
@@ -15,4 +15,6 @@ public abstract class MedicalSchool {
 
 	public MedicalSchool() {
 	}
+	
 }
+

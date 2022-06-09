@@ -1,4 +1,4 @@
-package hw10Abstraction;
+package hw11Abstraction;
 
 public interface University extends College, Hospital  {
 	
@@ -19,5 +19,8 @@ public interface University extends College, Hospital  {
 	}
 
 	public static void library() {
+	}
+	public default void rayhan1() {
+		
 	}
 }
